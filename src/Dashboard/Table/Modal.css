@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+.basedata {
+  color: rgb(255, 217, 0);
+  font-weight: 500;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.horizontal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.yellowspan {
+  color: rgb(255, 217, 0);
+  background-color: rgb(255, 217, 0);
+  height: 2px;
+  width: 110px;
+}
+.greyspan {
+  color: lightgray;
+  background-color: lightgray;
+  height: 2px;
+  width: 100%;
+}
+
+.body 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+.general {
+  margin-top: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+} 
+.Generalinputs {
+  /* margin-top: 1%; */
+  height: 100%;
+  overflow: visible;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+
+}
+.GeneralLabel,.LocationLabel
+{
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1px;
+    font-size: small;
+} 
+option
+{
+    color: grey;
+    font-size: small;
+  
+}
+section
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+} 
+
+
+.Generalinput1,
+.Generalinput2,
+.Generalinput3,
+.Generalinput4,
+.Generalinput5,
+.Generalinput6,
+.Locationinput 
+{
+  margin-bottom: 5px;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:2%;
+  padding-bottom:2% ;
+  width: 100%;
+  
+ } 
+
+ .input1,
+.input2,
+.input3,
+.input4,
+.input5,
+.input6
+{
+    height:30px ;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: small;
+    color: rgb(92, 89, 89);
+    padding: 1%;
+
+} 
+
+
+
+
+.input1
+{
+    font-size: small;
+    padding-left: 2%;
+}
+ .modal-90w
+{
+    min-width: 70%;
+    min-height: 50%;
+}
+
+
+ @media (max-width: 1000px) {
+
+    section
+{
+    grid-template-columns: 50% 50% ;
+
+}
+} 
+
+option::selection
+{
+    font-size: small;
+}
+
+.review
+{
+    margin-top: 10px;
+    height: 80%;
+    display: grid;
+    /* grid-template-column: 200px 50px ; */
+}
+
+
+.reviewBody
+{
+    overflow: visible;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 90px 50px;
+    justify-items: end;
+}
+
+.reviewText
+{
+margin-top: 1%;    
+height:100%;
+width:100%;
+padding-left:5% ;
+padding-right:5% ;
+}
+textarea
+{
+
+    font-size: small;
+    padding: 1%;
+    color: gray;
+    border: 1px solid lightgray;
+}
+.Buttondiv
+{
+
+    height: max-content;
+    width: max-content;
+
+    /* width: 8%; */
+    overflow: visible;
+    background-color: rgb(255, 217, 0);
+    margin-right: 5%;
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 5px;
+    padding-top:0.1% ;
+    padding-bottom:0.1% ; 
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+        
+}
+
+.BrowseButton
+{
+    
+display: grid;
+grid-template-rows: 20px 20px;
+height: max-content;
+width: max-content;
+
+
+}
+
+
+
+.BrowseIcon
+{
+  align-items: center;
+  color: black;
+  justify-content: center;
+}
+
+.BrowsePara
+{
+text-align: center;
+font-size: small;
+font-weight: bold;
+}
+
+
+
+.Location
+{
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.loacationInputs
+{
+    /* margin-top: 1%; */
+    height: 100%;
+    overflow: visible;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+
+.Footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.button1, .button2
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    margin-right: 0%;
+    margin: left;
+    margin-top: 1%;
+    width: max-content;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-bottom: 3.5%;
+    padding-left: 0.5%;
+    padding-right:0.5%;
+
+}
+
+.button1
+{
+background-color: blue;
+color: white;
+text-align: center;
+}
+.button2
+{
+   background-color: gray; 
+   color: white;
+   text-align: center;
+   margin-left: 1%;
+
+}
+.FooterIcon1
+{
+    height: 20px;
+    width: 25px;
+}
+.FooterIcon2
+{
+    height: 30px;
+    width: 25px;
+}
+
+.display-input-error
+{
+    color: red;
+    font-size: small;
+}

@@ -1,0 +1,132 @@
+*
+{
+    margin: 0%;
+  
+}
+.Dropdown
+{
+    margin-top: 1%;
+    background-color: #f8f9fa;
+    border: 1px solid darkgray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index:1;
+    padding-bottom: 2%;
+
+}
+.Dreporter,.Dservice,.Dsystem,.Dstation,.Dticket,.Dpriority,.Dstatus
+{
+padding: 1%;
+}
+.DSreporter,.DSservice,.DSsystem,.DSstation,.DSticket,.DSpriority,.DSstatus
+{
+/* color: red; */
+border-radius: 4px;
+overflow: hidden;
+height: 130%;
+width: 60px;
+border-color: darkgray;
+color: #4a4e51;
+}
+.Ddate
+{
+padding: 1%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+float: right;
+width: 40%;
+/* margin-bottom: 5%; */
+}
+.Ddate1,.Ddate2
+{
+border-radius: 4px;
+overflow: hidden;
+height: 120%;
+width: 120px;
+border: 1px solid darkgray;
+border-color: darkgray;
+color: #4a4e51;
+margin-top: 0%;
+
+}
+.Dicons
+{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1.5%;
+    width: 30%;
+    height: max-content;
+}
+
+.DArrowdiv, .Dfilterdiv
+{
+background-color: #FFC107;
+height: 30px;
+width: 40px;
+float: right;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+margin-right: 5%;
+padding-top: 3%;
+margin-left: 2% ;
+margin-right: 0% ;
+margin-bottom:2% ;
+
+}
+.DArrowspan
+{
+align-items: center;
+align-content: center;
+}
+.DSearchdiv
+{
+background-color: #343a40;
+color: white;
+height: 30px;
+width: 40px;
+float: right;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+margin-right: 5%;
+padding-top: 3%;
+margin-left: 2% ;
+margin-right: 0% ;
+margin-bottom:2% ;
+}
+.DChartdiv
+{
+    background-color: #0288D1;
+    color: white;
+    height: 30px;
+    width: 40px;
+    float: right;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    margin-left: 2% ;
+    margin-right: 0% ;
+    margin-bottom:2% ; 
+}
+
+.DChartspan
+{
+height: 20px;
+width: 35px;
+}
+.Date1div, .Date2div
+{
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+@media (max-width: 1000px) 
+{
+    
+}

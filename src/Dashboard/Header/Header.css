@@ -1,0 +1,184 @@
+*{
+    width: 100%;
+}
+html
+{
+width: 100%;
+height: 100%;
+}
+body
+{
+  min-width: 100%;
+  min-height: 100%; 
+}
+.Hheader
+{
+    margin-top: 2%;
+    background-color: #f8f9fa;
+    border: 1px solid darkgray;
+    display: flex;
+    flex-direction: row;
+    z-index:1;
+    align-items: center;
+    box-sizing: border-box;   
+    width: 100%;
+}
+.Hleft
+{
+ display: flex;
+ flex-direction: row;
+ overflow: visible;
+ clear: both;
+ float: left;
+ width: 70%;
+ box-sizing: border-box;   
+}
+
+
+
+
+.Hopen,.Hassign,.Hclose,.Hdue,.Hreopen,.Hprogress,.Hreview
+{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;   
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    /* justify-items: end; */
+    /* justify-content: flex-end; */
+    width: max-content;
+}
+.HopenImg,.HassignImg,.HcloseImg,.HreopenImg,.HdueImg,.HprogressImg,.HreopenImg,.HreviewImg
+{
+    background-color:#f8f9fa ;
+    margin: 1%;
+    width: 15px;
+    height: 20px;
+
+}
+.HopenPara,.HassignPara,.HclosePara,.HreopenPara,.HprogressPara,.HduePara,.HreviewPara
+{
+    margin-top: 0.7%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    font-weight:  500;
+    font-size: small;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: visible;
+    white-space: nowrap;
+    width: max-content;
+
+}
+
+.Hopen,.Hassign,.Hclose,.Hreopen,.Hprogress,.Hdue,.Hreview:hover
+{
+cursor: pointer;
+}
+
+
+.Hright
+{   
+
+width: 30%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-right: 1.5%;
+box-sizing: border-box;
+overflow: visible;
+clear: both;
+float: right;
+margin-top: 0.5%;
+}
+
+.HrC, .HrH, .HrL, .HrM
+{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;   
+    padding: 1%;
+    width: max-content;
+}
+
+.HrParaC, .HrParaH, .HrParaL, .HrParaM
+{
+    
+    margin-bottom: 1%;
+    margin-right: 2%;
+    font-weight:  500;
+    font-size: smaller;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: visible;
+    white-space: nowrap;
+
+}
+.HrImgC,.HrImgH,.HrImgM,.HrImgL
+{
+    background-color:#f8f9fa ;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (max-width: 1000px) {
+
+    .Hheader
+  {
+      
+     
+      display: flex;
+      flex-direction: column;
+      z-index:1;
+
+     width: 100%;
+  }
+  
+  .Hleft
+  {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  
+  }
+  /* .Hright
+  {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  } */
+
+  .HopenImg,.HassignImg,.HcloseImg,.HreopenImg,.HdueImg,.HprogressImg,.HreopenImg,.HreviewImg
+  {
+      height: 0px;
+      width: 0px;
+  }
+  
+  .HrImgC,.HrImgH,.HrImgM,.HrImgL
+  {
+      height: 0px;
+      width: 0px  
+  }
+    
+  .HopenPara,.HassignPara,.HclosePara,.HreopenPara,.HprogressPara,.HduePara,.HreviewPara
+  {
+    margin: 0; 
+    padding: 0; 
+    font-weight: 500;
+    font-size: x-small;
+    overflow: visible;
+    white-space: normal;
+  } 
+  .HrParaC, .HrParaH, .HrParaL, .HrParaM
+  {
+    margin: 0; 
+    padding: 0; 
+    font-weight: normal;
+    font-size:small;
+    overflow: visible;
+    /* white-space: normal; */
+  } 
+  }

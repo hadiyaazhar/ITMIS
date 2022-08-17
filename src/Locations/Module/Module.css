@@ -1,0 +1,295 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.complex-main
+{
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    /* margin-left:0.5% ; */
+    margin-right:0.5% ;
+    margin-top:1% ;
+    margin-bottom:1% ;
+}
+.complex-header
+{
+display: grid;
+width: 100%;
+height: max-content;
+grid-template-columns: 50% 50%;
+}
+.complex-header-right
+{
+
+/* margin-top:5%; */
+/* margin-right: 5%; */
+margin: 2%;
+display: flex;
+justify-content: flex-start;
+
+}
+.complex-header-button
+{
+    background-color: #ffc107;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 1%;
+    width: 30%;
+    height: max-content;
+}
+.complex-header-button:hover,.complex-header-icon:hover,.complex-header-right-para:hover
+{
+    /* background-color: #d6a309; */
+    cursor: pointer;
+
+}
+.complex-header-icon
+{
+
+    height: 20px;
+    padding: 0.5%;
+    width: 20px;
+    background-color: #ffc107;
+
+}
+.complex-header-right-para
+{
+    background-color: #ffc107;
+    font-size: small;
+    align-items: center;
+    padding-right:0.5% ; 
+    text-align: center;
+}
+.complex-header-left
+{
+display: flex;
+justify-content:flex-end;
+justify-items: flex-end;
+float: left;
+padding-left: 70%;
+}
+.complex-header-left-para
+{
+    font-size: medium;
+    font-weight: bold;
+    margin: 2%;
+}
+
+
+.complex-search
+{
+    display: flex;
+    flex-direction: row;
+}
+.complex-search-right
+{
+display: flex;
+justify-content: flex-start;
+margin-left: 1%;
+
+}
+.complex-search-left
+{
+ display: flex;
+ justify-content: flex-end; 
+  
+}
+.complex-search-input
+{
+    width: 500px;
+    height: 35px;
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: small;
+}
+.complex-right-search-button
+{
+    width: 33px;
+    height: 33px;
+    size: 20px;
+    margin-bottom: 1.5%;
+    border: 1px solid lightgray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #dee2e6;
+    color: rgb(94, 94, 94);
+    padding-left: 3px;
+    padding-right:3px ;
+    padding-top:3px ;
+
+}
+
+.complex-search-left
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: max-content;
+    height: 100%;
+}
+.complex-left-search-button1,.complex-left-search-button2,.complex-left-search-button3
+{
+    padding: 1.5%;
+    margin-right:2% ;
+
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.complex-left-search-button1
+{
+    background: #9C27B0;
+    border: 1px solid #9C27B0;
+    border-radius: 5px;
+}
+.complex-left-search-button2
+{
+    background: #9C27B0;
+    border: 1px solid #9C27B0;
+    border-radius: 5px;
+}
+.complex-left-search-button3
+{
+    background: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+
+}
+.complex-table{
+    width: 100%;
+
+}
+.datatable-responsive
+{
+    display: grid;
+
+}
+.complex-table-columns
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.complex-table-data
+{
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    width: max-content;
+}
+
+.update-icon
+{
+color: green;
+height: 20px;
+
+}
+.delete-icon
+{
+font-size:larger;
+color: red;
+height: 20px;
+padding-left: 10px;
+}
+.complex-table-data-action
+{
+    text-align: center;
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.complex-modal-body
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.complex-general,.complex-location,.complex-maintenance,.complex-dimensional
+{
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.complex-general-data,.complex-location-data,.complex-maintenance-data,.complex-dimensional-data
+{
+
+    height: 100%;
+    overflow: visible;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.complex-input-divs
+{
+    margin-bottom: 5px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:2%;
+    padding-bottom:2% ;
+    display: flex;
+    width: 100%;}
+.complex-inputs
+{
+    height:30px ;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: small;
+    color: rgb(92, 89, 89);
+    padding: 1%;
+}
+
+.complex-footer
+{
+display: flex;
+/* width: max-content; */
+flex-direction: row;
+justify-content: flex-end;
+align-content: flex-end;
+padding: 1%;
+}
+.complex-footer-button
+{ 
+    margin-right: 15px;
+    align-items: center;
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    width: 50;
+    width: max-content;
+}
+.Custompaginator
+{
+   display: grid;
+   grid-template-rows: max-content; 
+}
+.p-paginator-current,.p-paginator-bottom,.p-paginator-pages
+{
+    width: max-content;
+    display: grid;
+}
+.p-paginator-pages
+{
+    display: flex;
+    flex-direction: row;
+}
+.p-paginator{
+width: 100%;
+}

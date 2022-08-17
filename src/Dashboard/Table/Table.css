@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Table
+{
+    margin-top: 1%;
+    border: 1px solid darkgray;
+    background-color: #f8f9fa;
+    
+
+}
+.Ttable
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TtableHeader
+{
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+display: flex;
+border-left: 1px solid darkgray;
+border-right: 1px solid darkgray;
+border-bottom: 1px solid darkgray;
+flex-direction: row;
+background-color: #f8f9fa;
+}
+.TtableHeaderData
+{
+    border-collapse: collapse;
+    /* padding: 1%; */
+    display: flex;
+    flex-direction: row;
+    border: 2px solid transparent;
+    color: rgb(118, 113, 113);
+    font-weight: 500;
+  
+}
+.TtableHeaderData:hover
+{
+    background-color: #d7dade;
+    /* border-color: #ffc107; */
+    /* color: #ffc107; */
+
+
+}
+
+.TtableBody
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.TBodyRow1
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    font-size: small;
+    background-color: white;
+    border-left: 1px solid darkgray;
+border-right: 1px solid darkgray;
+border-bottom: 1px solid darkgray;
+
+
+}
+.TBodyRow1:hover
+{
+    background-color: #d7dade;
+
+}
+.TBodyRow2
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    font-size: small;
+    border-left: 1px solid darkgray;
+border-right: 1px solid darkgray;
+border-bottom: 1px solid darkgray;
+}
+.TBodyRow2:hover
+{
+    background-color: #d7dade;
+
+}
+
+.SuccessButton
+{
+    background-color: darkgreen;
+    color: white;
+    padding: 3%;
+    border-radius: 3px;
+    font-size: small;
+}
+.Ticketdata
+{
+    font-weight: 700;
+    color: rgb(5, 108, 234);
+}
+.EditButton
+{
+    height: 20px;
+    width: 30px;
+    color: darkgreen;
+}
+.HighButton
+{
+    background-color: rgb(1, 101, 209);
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 3px;
+    font-size: small;
+    
+}
+.AutoCloseButton
+{
+    background-color: rgb(105, 0, 79);
+    color: white;
+    padding: 2%;
+    border-radius: 3px;
+    font-size: xx-small;
+}
+.LowButton
+{
+    background-color: rgb(223, 1, 1);
+    color: white;
+    /* padding: 3%; */
+    border-radius: 3px;
+    font-size: small;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.OverdueButton
+{
+    background-color: rgb(223, 1, 1);
+    color: white;
+    padding: 3%;
+    border-radius: 3px;
+    font-size: small;
+}
+
+
+
