@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/hadiyaazhar/ITMIS.git/static/css/main.ade55651.css",
+    "main.js": "/hadiyaazhar/ITMIS.git/static/js/main.c4323973.js",
+    "static/js/125.0fcb665b.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/125.0fcb665b.chunk.js",
+    "static/js/52.06c7482d.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/52.06c7482d.chunk.js",
+    "static/js/787.2b60bfd9.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/787.2b60bfd9.chunk.js",
+    "static/js/498.57e7ff8f.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/498.57e7ff8f.chunk.js",
+    "static/js/703.79efc2ab.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/703.79efc2ab.chunk.js",
+    "static/js/13.522fefd1.chunk.js": "/hadiyaazhar/ITMIS.git/static/js/13.522fefd1.chunk.js",
+    "static/media/primeicons.svg": "/hadiyaazhar/ITMIS.git/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/primeicons.eot": "/hadiyaazhar/ITMIS.git/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/hadiyaazhar/ITMIS.git/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/hadiyaazhar/ITMIS.git/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "index.html": "/hadiyaazhar/ITMIS.git/index.html",
+    "main.ade55651.css.map": "/hadiyaazhar/ITMIS.git/static/css/main.ade55651.css.map",
+    "main.c4323973.js.map": "/hadiyaazhar/ITMIS.git/static/js/main.c4323973.js.map",
+    "125.0fcb665b.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/125.0fcb665b.chunk.js.map",
+    "52.06c7482d.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/52.06c7482d.chunk.js.map",
+    "787.2b60bfd9.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/787.2b60bfd9.chunk.js.map",
+    "498.57e7ff8f.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/498.57e7ff8f.chunk.js.map",
+    "703.79efc2ab.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/703.79efc2ab.chunk.js.map",
+    "13.522fefd1.chunk.js.map": "/hadiyaazhar/ITMIS.git/static/js/13.522fefd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade55651.css",
+    "static/js/main.c4323973.js"
+  ]
+}
